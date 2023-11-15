@@ -38,7 +38,6 @@
             numericQ3 = new NumericUpDown();
             numericQ4 = new NumericUpDown();
             createSurveryButton = new Button();
-            flowLayoutPanel1 = new FlowLayoutPanel();
             ((System.ComponentModel.ISupportInitialize)numericQ1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)numericQ2).BeginInit();
             ((System.ComponentModel.ISupportInitialize)numericQ3).BeginInit();
@@ -49,9 +48,10 @@
             // 
             label1.AutoSize = true;
             label1.Font = new Font("Segoe UI", 16F, FontStyle.Regular, GraphicsUnit.Point);
-            label1.Location = new Point(156, 40);
+            label1.Location = new Point(223, 67);
+            label1.Margin = new Padding(4, 0, 4, 0);
             label1.Name = "label1";
-            label1.Size = new Size(447, 30);
+            label1.Size = new Size(661, 45);
             label1.TabIndex = 0;
             label1.Text = "Välj hur många frågor som ska ingå i enkäten";
             // 
@@ -59,9 +59,10 @@
             // 
             labelQ1.AutoSize = true;
             labelQ1.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            labelQ1.Location = new Point(162, 104);
+            labelQ1.Location = new Point(231, 173);
+            labelQ1.Margin = new Padding(4, 0, 4, 0);
             labelQ1.Name = "labelQ1";
-            labelQ1.Size = new Size(68, 21);
+            labelQ1.Size = new Size(99, 32);
             labelQ1.TabIndex = 1;
             labelQ1.Text = "Kortsvar";
             // 
@@ -69,9 +70,10 @@
             // 
             labelQ2.AutoSize = true;
             labelQ2.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            labelQ2.Location = new Point(162, 135);
+            labelQ2.Location = new Point(231, 225);
+            labelQ2.Margin = new Padding(4, 0, 4, 0);
             labelQ2.Name = "labelQ2";
-            labelQ2.Size = new Size(73, 21);
+            labelQ2.Size = new Size(107, 32);
             labelQ2.TabIndex = 1;
             labelQ2.Text = "Långsvar";
             // 
@@ -79,9 +81,10 @@
             // 
             labelQ3.AutoSize = true;
             labelQ3.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            labelQ3.Location = new Point(162, 165);
+            labelQ3.Location = new Point(231, 275);
+            labelQ3.Margin = new Padding(4, 0, 4, 0);
             labelQ3.Name = "labelQ3";
-            labelQ3.Size = new Size(54, 21);
+            labelQ3.Size = new Size(81, 32);
             labelQ3.TabIndex = 1;
             labelQ3.Text = "Ja/Nej";
             // 
@@ -89,65 +92,62 @@
             // 
             labelQ4.AutoSize = true;
             labelQ4.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            labelQ4.Location = new Point(162, 199);
+            labelQ4.Location = new Point(231, 332);
+            labelQ4.Margin = new Padding(4, 0, 4, 0);
             labelQ4.Name = "labelQ4";
-            labelQ4.Size = new Size(84, 21);
+            labelQ4.Size = new Size(126, 32);
             labelQ4.TabIndex = 1;
             labelQ4.Text = "Flerval 1-5";
             // 
             // numericQ1
             // 
-            numericQ1.Location = new Point(270, 104);
+            numericQ1.Location = new Point(386, 173);
+            numericQ1.Margin = new Padding(4, 5, 4, 5);
             numericQ1.Name = "numericQ1";
-            numericQ1.Size = new Size(37, 23);
+            numericQ1.Size = new Size(53, 31);
             numericQ1.TabIndex = 2;
             // 
             // numericQ2
             // 
-            numericQ2.Location = new Point(270, 135);
+            numericQ2.Location = new Point(386, 225);
+            numericQ2.Margin = new Padding(4, 5, 4, 5);
             numericQ2.Name = "numericQ2";
-            numericQ2.Size = new Size(37, 23);
+            numericQ2.Size = new Size(53, 31);
             numericQ2.TabIndex = 2;
             // 
             // numericQ3
             // 
-            numericQ3.Location = new Point(270, 165);
+            numericQ3.Location = new Point(386, 275);
+            numericQ3.Margin = new Padding(4, 5, 4, 5);
             numericQ3.Name = "numericQ3";
-            numericQ3.Size = new Size(37, 23);
+            numericQ3.Size = new Size(53, 31);
             numericQ3.TabIndex = 2;
             // 
             // numericQ4
             // 
-            numericQ4.Location = new Point(270, 199);
+            numericQ4.Location = new Point(386, 332);
+            numericQ4.Margin = new Padding(4, 5, 4, 5);
             numericQ4.Name = "numericQ4";
-            numericQ4.Size = new Size(37, 23);
+            numericQ4.Size = new Size(53, 31);
             numericQ4.TabIndex = 2;
             // 
             // createSurveryButton
             // 
             createSurveryButton.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            createSurveryButton.Location = new Point(200, 237);
+            createSurveryButton.Location = new Point(286, 395);
+            createSurveryButton.Margin = new Padding(4, 5, 4, 5);
             createSurveryButton.Name = "createSurveryButton";
-            createSurveryButton.Size = new Size(107, 56);
+            createSurveryButton.Size = new Size(153, 93);
             createSurveryButton.TabIndex = 3;
             createSurveryButton.Text = "Generera frågor";
             createSurveryButton.UseVisualStyleBackColor = true;
             createSurveryButton.Click += createSurveryButton_Click;
             // 
-            // flowLayoutPanel1
-            // 
-            flowLayoutPanel1.FlowDirection = FlowDirection.TopDown;
-            flowLayoutPanel1.Location = new Point(474, 176);
-            flowLayoutPanel1.Name = "flowLayoutPanel1";
-            flowLayoutPanel1.Size = new Size(200, 100);
-            flowLayoutPanel1.TabIndex = 4;
-            // 
             // Form1
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleDimensions = new SizeF(10F, 25F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 450);
-            Controls.Add(flowLayoutPanel1);
+            ClientSize = new Size(1143, 750);
             Controls.Add(createSurveryButton);
             Controls.Add(numericQ4);
             Controls.Add(numericQ3);
@@ -158,8 +158,10 @@
             Controls.Add(labelQ2);
             Controls.Add(labelQ1);
             Controls.Add(label1);
+            Margin = new Padding(4, 5, 4, 5);
             Name = "Form1";
             Text = "Form1";
+            Load += Form1_Load;
             ((System.ComponentModel.ISupportInitialize)numericQ1).EndInit();
             ((System.ComponentModel.ISupportInitialize)numericQ2).EndInit();
             ((System.ComponentModel.ISupportInitialize)numericQ3).EndInit();
@@ -180,6 +182,5 @@
         private NumericUpDown numericQ3;
         private NumericUpDown numericQ4;
         private Button createSurveryButton;
-        private FlowLayoutPanel flowLayoutPanel1;
     }
 }
