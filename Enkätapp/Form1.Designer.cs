@@ -104,14 +104,16 @@
             numericQ1.Location = new Point(386, 173);
             numericQ1.Margin = new Padding(4, 5, 4, 5);
             numericQ1.Name = "numericQ1";
+            numericQ1.ReadOnly = true;
             numericQ1.Size = new Size(53, 31);
-            numericQ1.TabIndex = 2;
+            numericQ1.TabIndex = 1;
             // 
             // numericQ2
             // 
             numericQ2.Location = new Point(386, 225);
             numericQ2.Margin = new Padding(4, 5, 4, 5);
             numericQ2.Name = "numericQ2";
+            numericQ2.ReadOnly = true;
             numericQ2.Size = new Size(53, 31);
             numericQ2.TabIndex = 2;
             // 
@@ -120,16 +122,18 @@
             numericQ3.Location = new Point(386, 275);
             numericQ3.Margin = new Padding(4, 5, 4, 5);
             numericQ3.Name = "numericQ3";
+            numericQ3.ReadOnly = true;
             numericQ3.Size = new Size(53, 31);
-            numericQ3.TabIndex = 2;
+            numericQ3.TabIndex = 3;
             // 
             // numericQ4
             // 
             numericQ4.Location = new Point(386, 332);
             numericQ4.Margin = new Padding(4, 5, 4, 5);
             numericQ4.Name = "numericQ4";
+            numericQ4.ReadOnly = true;
             numericQ4.Size = new Size(53, 31);
-            numericQ4.TabIndex = 2;
+            numericQ4.TabIndex = 4;
             // 
             // createSurveryButton
             // 
@@ -138,7 +142,7 @@
             createSurveryButton.Margin = new Padding(4, 5, 4, 5);
             createSurveryButton.Name = "createSurveryButton";
             createSurveryButton.Size = new Size(153, 93);
-            createSurveryButton.TabIndex = 3;
+            createSurveryButton.TabIndex = 5;
             createSurveryButton.Text = "Generera frågor";
             createSurveryButton.UseVisualStyleBackColor = true;
             createSurveryButton.Click += createSurveryButton_Click;
@@ -161,7 +165,6 @@
             Margin = new Padding(4, 5, 4, 5);
             Name = "Form1";
             Text = "Form1";
-            Load += Form1_Load;
             ((System.ComponentModel.ISupportInitialize)numericQ1).EndInit();
             ((System.ComponentModel.ISupportInitialize)numericQ2).EndInit();
             ((System.ComponentModel.ISupportInitialize)numericQ3).EndInit();
